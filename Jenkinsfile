@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'ls'
         sh 'cd ./bsb'
-        sh 'yarn i'
+        sh 'yarn install'
       }
     }
 
