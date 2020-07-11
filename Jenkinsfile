@@ -3,6 +3,8 @@ pipeline {
   stages {
     stage('Install') {
       steps {
+        sh 'ls'
+        sh 'cd ./bsb'
         sh 'yarn i'
       }
     }
