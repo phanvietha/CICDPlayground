@@ -13,6 +13,7 @@ pipeline {
       parallel {
         stage('Unit Test') {
           steps {
+            sh 'ls'
             sh 'npm run test ng-pwa'
           }
         }
