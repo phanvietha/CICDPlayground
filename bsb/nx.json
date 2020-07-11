@@ -1,0 +1,36 @@
+{
+  "npmScope": "bsb",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "accessToken": "YTA3YzEwYWEtN2YwMi00YTk5LTkyNWUtNWJlNWFjNTExNmVhfHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "projects": {
+    "ng-pwa": {
+      "tags": []
+    },
+    "ng-pwa-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ng-pwa"]
+    }
+  }
+}
