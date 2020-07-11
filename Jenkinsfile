@@ -3,9 +3,10 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh 'ls'
-        sh 'cd ./bsb'
-        sh 'npm install'
+        dir(path: 'bsb') {
+          sh 'npm install'
+        }
+
       }
     }
 
