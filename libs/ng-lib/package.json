@@ -1,0 +1,16 @@
+{
+  "name": "@bsb/ng-lib",
+  "version": "0.0.1",
+  "scripts": {
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.1.12",
+    "@angular/core": "^9.1.12"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-private/"
+  }
+}

@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bsb/ng-lib": ["libs/ng-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

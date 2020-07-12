@@ -31,6 +31,9 @@
     "ng-pwa-e2e": {
       "tags": [],
       "implicitDependencies": ["ng-pwa"]
+    },
+    "ng-lib": {
+      "tags": []
     }
   }
 }
